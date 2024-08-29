@@ -19,7 +19,7 @@ A simple CRUD To Do List Management System, made with PHP, MySQL and a MVC appro
 6. Lauch your Apache Server
 7. Test on localhost (for example: http://localhost/ or http://localhost/ToDoManagement/)
 8. If you have a problem visualizing the project, I'd recommend setting a VirtualHost:
-   - **On your C:\Windows\System32\drivers\etc\hosts file**
+   - **On your C:\Windows\System32\drivers\etc\hosts file (You I'll need administrator privileges to save the file)**
    ```
    127.0.0.1 todo
    ```
@@ -36,5 +36,6 @@ A simple CRUD To Do List Management System, made with PHP, MySQL and a MVC appro
       </Directory>
    </VirtualHost>
    ```
+   - **Restart the Apache Server**
    - **On your Web Explorer go to http://todo/**
 9. If you have any problems or questions, please do not hesitate to contact me (ꈍᴗꈍ)
