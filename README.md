@@ -19,10 +19,10 @@ A simple CRUD To Do List Management System, made with PHP, MySQL and a MVC appro
 6. Lauch your Apache Server
 7. Test on localhost (for example: http://localhost/ or http://localhost/ToDoManagement/)
 8. If you have many projects on your htdocs folder, I'd recommend setting a VirtualHost, for example:
-   **On your C:\Windows\System32\drivers\etc\hosts file**
+   - **On your C:\Windows\System32\drivers\etc\hosts file**
    127.0.0.1 todo
    
-   **On your C:\xampp\apache\conf\extra\httpd-vhosts.conf file**
+   - **On your C:\xampp\apache\conf\extra\httpd-vhosts.conf file**
    <VirtualHost *:80>
     DocumentRoot "C:/xampp/htdocs/to_do_list_management/"
     ServerName todo
