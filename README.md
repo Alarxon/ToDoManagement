@@ -18,17 +18,17 @@ A simple CRUD To Do List Management System, made with PHP, MySQL and a MVC appro
 5. Execute the .sql script located at models\database.sql
 6. Lauch your Apache Server
 7. Test on localhost (for example: http://localhost/ or http://localhost/ToDoManagement/)
-8. If you have many projects on your htdocs folder, I'd recommend setting a VirtualHost, for example:
+8. If you have a problem visualizing the project, I'd recommend setting a VirtualHost:
    - **On your C:\Windows\System32\drivers\etc\hosts file**
    > 127.0.0.1 todo
    
    - **On your C:\xampp\apache\conf\extra\httpd-vhosts.conf file**
-   <VirtualHost *:80>
-    DocumentRoot "C:/xampp/htdocs/to_do_list_management/"
-    ServerName todo
-	<Directory "C:/xampp/htdocs/to_do_list_management/">
-       AllowOverride All
-	   Require all granted
-       Options Indexes FollowSymLinks
-    </Directory>
-</VirtualHost>
+   > <VirtualHost *:80>
+   > DocumentRoot "C:/xampp/htdocs/to_do_list_management/"
+   > ServerName todo
+   >	<Directory "C:/xampp/htdocs/to_do_list_management/">
+   >       AllowOverride All
+   >	   Require all granted
+   >       Options Indexes FollowSymLinks
+   > </Directory>
+   > </VirtualHost>
