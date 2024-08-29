@@ -25,12 +25,14 @@ A simple CRUD To Do List Management System, made with PHP, MySQL and a MVC appro
    ```
    
    - **On your C:\xampp\apache\conf\extra\httpd-vhosts.conf file**
-   > <VirtualHost *:80>
-   > DocumentRoot "C:/xampp/htdocs/to_do_list_management/"
-   > ServerName todo
-   >	<Directory "C:/xampp/htdocs/to_do_list_management/">
-   >       AllowOverride All
-   >	   Require all granted
-   >       Options Indexes FollowSymLinks
-   > </Directory>
-   > </VirtualHost>
+   ```
+   <VirtualHost *:80>
+      DocumentRoot "C:/xampp/htdocs/to_do_list_management/"
+      ServerName todo
+      <Directory "C:/xampp/htdocs/to_do_list_management/">
+         AllowOverride All
+         Require all granted
+         Options Indexes FollowSymLinks
+      </Directory>
+   </VirtualHost>
+   ```
